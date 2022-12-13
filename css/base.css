@@ -15,15 +15,26 @@
     font-size: 50px;
     text-align: center;
  }
+ nav{
+   margin: 0 auto;
+   background-color:#F7B578 ;
+   color:#8CFF98;
+ }
   nav ul li{
-    text-decoration:none;
-    list-style:none;
+    list-style: none;
+  }
+  nav ul li a{
+   display: block;
   }
   #s_media img{
     width: 15%;
   }
   nav ul li:hover {
     color:#7C6354 ;
+  }
+  #weather{
+   background-color:#2E86AB ;
+   color: #8CFF98;
   }
  p{
     font-family: 'Baloo 2', 'cursive';
