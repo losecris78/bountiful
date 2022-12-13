@@ -6,10 +6,37 @@
 /*Primary #8CFF98, Secondary #F7B578, Accent 1 #2E86AB, Accent 2 #403D58 Hover #7C6354.*/
  h1,h2,h3,h4{
     font-family: 'Cormorant', serif;
+    padding: 2vw;
 
  }
+ h1{
+    color:#8CFF98;
+    background-color:#2E86AB ;
+    font-size: 50px;
+    text-align: center;
+ }
+  nav ul li{
+    text-decoration:none;
+    list-style:none;
+  }
+  #s_media img{
+    width: 15%;
+  }
+  nav ul li:hover {
+    color:#7C6354 ;
+  }
  p{
     font-family: 'Baloo 2', 'cursive';
 
+ }
+ img{
+    width:100%;
+    margin: 0 auto;
+    padding: 2vw;
+ }
+ footer{
+    color:#403D58 ;
+    background-color:#F7B578 ;
+    padding: 2vw;
  }
 
