@@ -15,10 +15,9 @@ document.querySelector("#year1").innerText = year;
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#icon');
 const captionDesc = document.querySelector('#description');
-const windSpeed = document.querySelector('#speed');
-const humidity = document.querySelector("#humid");
+const humidity = document.querySelector("#humidity");
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=carlsband&units=imperial&appid=87951c9b1071233f4e525b5a6cf8d68b';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=carlsbad&units=imperial&appid=87951c9b1071233f4e525b5a6cf8d68b';
 
 async function apiFetch() {
     try {
@@ -36,12 +35,12 @@ async function apiFetch() {
   }
   apiFetch();
   function  displayResults(weatherData) {
-    currentTemp.innerHTML = `The weather today in Carlsband is:<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    windSpeed.innerHTML=`Wind Speed <strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
+    currentTemp.innerHTML = `The weather today in Carlsbad is: <strong>${weatherData.main.temp.toFixed(0)} °F</strong>`;
     humidity.innerHTML=`Humidity: ${weatherData.main.humidity.toFixed(0)}%`;
+    captionDesc.innerHTML= `${weatherData.weather[0].description}`;
+    
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
-  let upperDesc = desc.toUpperCase();
+    let upperDesc = captionDesc.toUpperCase();
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = upperDesc;
