@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 450px;
+}
+/*Primary #8CFF98, Secondary #F7B578, Accent 1 #2E86AB, Accent 2 #403D58 Hover #7C6354.*/
+ h1,h2,h3,h4{
+    font-family: 'Cormorant', serif;
+
+ }
+ p{
+    font-family: 'Baloo 2', 'cursive';
+
+ }
+
