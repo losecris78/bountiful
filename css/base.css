@@ -20,8 +20,12 @@
    background-color:#F7B578 ;
    color:#8CFF98;
  }
+ nav ul{
+   display:flex;
+ }
   nav ul li{
     list-style: none;
+
   }
   nav ul li a{
    display: block;
@@ -35,6 +39,19 @@
   #weather{
    background-color:#2E86AB ;
    color: #8CFF98;
+  }
+  #orders ul li{
+   list-style: none;
+   text-decoration:underline;
+  }
+  #action h3{
+   background-color: #F7B578;
+   color: #403D58;
+   font-size: 2.5em;
+   border-radius: 15px;;
+  }
+  #action :any-link{
+   color: #403D58;
   }
  p{
     font-family: 'Baloo 2', 'cursive';

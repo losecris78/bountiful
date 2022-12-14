@@ -1,0 +1,62 @@
+@media only screen and (min-width: 34rem){
+    *{
+        width:98%;
+        margin: 0 auto;
+       
+    }
+    nav ul{
+        margin: 1em auto;
+        font-size: 1.3em;
+    }
+
+
+div #s_media {
+  display: flex;
+ justify-items: end;
+ justify-content: end;
+}
+div #menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#menu h3{
+    font-size:1.5em;
+    text-align: center;
+}
+.fruit{
+    grid-column: 1/2;
+    width: 45%
+}
+.juice{
+    grid-column: 2/3;
+    width: 45%;
+}
+.mix{
+    display: none;
+}
+#orders{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.healthy{
+    grid-column: 2/3;
+    padding: 2%;
+    margin:1rem 0.5rem;
+
+}
+.mixes{
+    grid-column: 2/3;
+    padding: 2%;
+    margin:1rem 0.5rem;
+
+}
+.list{
+    grid-column: 1/2;
+    grid-row: 1;
+    border-radius: 12px;
+    border: 2px solid  #403D58;
+    padding: 2%;
+    margin:1rem 0.5rem;
+}
+
+}

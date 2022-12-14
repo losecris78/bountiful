@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Cormorant&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/base.css">
     <title>Bountiful Foods</title>
 </head>
@@ -33,34 +33,56 @@
     <main>
         <section id="weather">
             <h3>Weather in Carlsbad</h3>
-            <span id="temp"></span> <span id="description"></span>
+            <span id="temp">&#8457;</span> <span id="description"></span>
             <img  id="#icon" src="" alt="">
             <span id="humidity">Humidity</span>
+            <p id ="forecast">
+                Forecast &#9730;
+            </p>
 
         </section>
-        <div>
+        <div id="menu">
             <h3>Our products</h3>
-            <img src="https://placehold.jp/300x200.png" alt="">
-            <img src="https://placehold.jp/300x200.png" alt="">
-            <img src="https://placehold.jp/300x200.png" alt="">
+            <img class="fruit" src="https://placehold.jp/300x200.png" alt="">
+            <img  class="juice" src="https://placehold.jp/300x200.png" alt="">
+            <img class="mix" src="https://placehold.jp/300x200.png" alt="">
         </div>
-        <section>
-            <h3>Customize your own order</h3>
-            <div>
-                <ul>
-                    <li>Healthy mixes</li>
-                    <img src="https://placehold.jp/150x150.png" alt="Low carb drink image">
-                    <li>Energetic mixes</li>
-                    <img src="https://placehold.jp/150x150.png" alt="High electrolit drimk image">
-                    <li>Product description</li>
-                </ul>
-                
+        <section id="action">
+            <a href="fresh.html"><h3>Customize your own order</h3></a>
+            <div id="orders">
+                <!--<ul id="order_grid">
+                    <li id="healthy">Healthy mixes</li>
+                        <img src="https://placehold.jp/150x150.png" alt="Low carb drink image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ratione voluptate, adipisci rem doloribus consequatur harum corporis similique ab ducimus aliquam tenetur ex dolore dolorem debitis corrupti! Repellat, quo ab?</p>
+                    <li id="mixes">Energetic mixes</li>
+                        <img src="https://placehold.jp/150x150.png" alt="High electrolit drimk image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo et quo voluptate, aliquam nemo odit dignissimos saepe soluta voluptatum ad natus iste delectus quasi excepturi, ducimus numquam blanditiis minus.</p>
+                    <li id="list">Previous orders</li>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsum tempora adipisci commodi quod recusandae ullam, quos quo harum aut reprehenderit debitis iusto dolorem, error quae animi cupiditate dolores odit.</p>
+                </ul>-->
+                <div>
+                    <h4 class="healthy">Healthy Mixes</h4>
+                        <img  class="healthy"src="https://placehold.jp/150x150.png" alt="Low carb drink image">
+                        <p class="healthy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit asperiores praesentium doloremque cupiditate dolorum quaerat reprehenderit dignissimos maxime voluptate! Quo, quos itaque. Eligendi deserunt provident molestiae est, asperiores consequuntur!</p>
+                </div>
+                <div class="mixes">
+                    <h4 class="mixes">Energetic Mixes</h4>
+                        <img  class="mixes" src="https://placehold.jp/150x150.png" alt="High electrolit drimk image">
+                        <p class="mixes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo et quo voluptate, aliquam nemo odit dignissimos saepe soluta voluptatum ad natus iste delectus quasi excepturi, ducimus numquam blanditiis minus.</p>
+
+                </div>    
+                <div class="list">
+                    <h4>Pevious orders</h4> 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur tempora consectetur voluptate eius, odio dolorem. Non incidunt aut eaque quis autem expedita quos alias, delectus iure, sed cumque repellat voluptatum.</p>  
+
+                </div>
+
             </div>
         </section>
     </main>
     <footer>
         <p>&copy Bountiful Foods <span id="year1"></span> <br> 4531 West Pi Street, Carlsbad, California
-        mydrink@bountifoods.com  +(871) 564 3256
+        mydrink@bountifoods.com  +(760) 564 3256
         <a href="resources.html">Resources</a>
         </p> 
        <span id="updated"></span>
