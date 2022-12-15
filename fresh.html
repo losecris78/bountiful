@@ -31,7 +31,67 @@
 
     </header>
     <main>
+    <form action="" method="get">
+        <fieldset>
+                
+            <label>First Name*<input class="textbox" type="text" name="fname" required></label>
+            <label>Email*<input class="textbox" type="email" name="email" required placeholder="example@example.com"></label>
+            <label>Phone*<input class="textbox" type="tel" name="phone" required></label>
+        </fieldset>
+        <fieldset>
+            <label>Select fruits</label>
+                <select id="fruit_selection" name="fruits">
+                    <option id="" value="">Select your fruits</option>
+                    <option id="" value="Apple">Apple</option>
+                    <option id="" value="Apricot">Apricot</option>
+                    <option id="" value="Avocado">Avocado</option>
+                    <option id="" value="Banana">Banana</option>
+                    <option id="" value="Blackberry">Blackberry</option>
+                    <option id="" value="Blueberry">Blueberry</option>
+                    <option id="" value="Cherry">Cherry</option>
+                    <option id="" value="Dragonfruit">Dragonfruit</option>
+                    <option id="" value="Durian">Durian</option>
+                    <option id="" value="Feijoa">Feijoa</option>
+                    <option id="" value="Fig">Fig</option>
+                    <option id="" value="Gooseberry">Gooseberry</option>
+                    <option id="" value="Grape">Grape</option>
+                    <option id="" value="Grapes">Grapes</option>
+                    <option id="" value="GreenApple"> Green Apple</option>
+                    <option id="" value="Guava">Guava</option>
+                    <option id="" value="Kiwi">Kiwi</option>
+                    <option id="" value="Kiwifruit">Kiwifruit</option>
+                    <option id="" value="Lemon">Lemon</option>
+                    <option id="" value="Lime">Lime</option>
+                    <option id="" value="Lingonberry">Lingonberry</option>
+                    <option id="" value="Lychee">Lychee</option>
+                    <option id="" value="Mango">Mango</option>
+                    <option id="" value="Melon">Melon</option>
+                    <option id="" value="Morus">Morus</option>
+                    <option id="" value="Orange">Orange</option>
+                    <option id="" value="Papaya">Papaya</option>
+                    <option id="" value="Passionfruit">Passionfruit</option>
+                    <option id="" value="Pear">Pear</option>
+                    <option id="" value="Persimmon">Persimmon</option>
+                    <option id="" value="Pineapple">Pineapple</option>
+                    <option id="" value="Pitahaya">Pitahaya</option>
+                    <option id="" value="Plum">Plum</option>
+                    <option id="" value="Pomegranate">Pomegranate</option>
+                    <option id="" value="Raspberry">Raspberry</option>
+                    <option id="" value="Strawberry">Strawberry</option>
+                    <option id="" value="Tangerine">Tangerine</option>
+                    <option id="" value="Tomato">Tomato</option>
+                    <option id="" value="Watermelon">Watermelon</option>
 
+
+                </select>
+        </fieldset>
+        
+        <fieldset class="lower">
+            <label>Special requirements<input class="textbox" id="bdesc" type="text" name="description"> </label>
+           
+            <input id="orderButton" type="button" value="Place my order" name="orderbutton"> 
+        </fieldset>
+    </form>
     </main>
     <footer>
         <p>&copy Bountiful Foods <span id="year1"></span> <br> 4531 West Pi Street, Carlsbad, California
@@ -41,5 +101,6 @@
        <span id="updated"></span>
     </footer>
     <script src="js/bountiful.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

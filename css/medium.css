@@ -1,7 +1,7 @@
 @media only screen and (min-width: 34rem){
     *{
-        width:98%;
-        margin: 0 auto;
+        
+        max-width: 700px;
        
     }
     nav ul{

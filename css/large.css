@@ -1,5 +1,31 @@
-@media only screen and (min-width: 64rem){
+@media only screen and (min-width: 60rem){
 
 
+*{
     
+    max-width: 1040px;
+  
+   
+}
+#weather{
+    background-color:bisque;
+    color:black;
+}
+div #menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fruit{
+    grid-column: 1/2;
+    width: 45%
+}
+.juice{
+    grid-column: 2/3;
+    width: 45%;
+}
+.mix{
+    display:contents;
+    
+}
+
 }
